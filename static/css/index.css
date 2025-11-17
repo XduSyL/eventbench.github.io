@@ -1,4 +1,13 @@
 /* Modern CSS Variables for consistent theming */
+/* Load Marshmallow Font */
+@font-face {
+    font-family: 'Marshmallow';
+    src: url('../fonts/Marshmallow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 :root {
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;

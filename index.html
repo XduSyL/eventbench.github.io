@@ -3,310 +3,171 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
+
   <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="description" content="">
+  <meta name="keywords" content="Event Camera, Event MLLM, Benchmark, Dynamic Vision">
   <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
   <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
   <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://YOUR_DOMAIN.com">
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
   <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:description" content="">
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <title>PAPER_TITLE - AUTHOR_NAMES</title>
 
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+
+  <style>
+    body, html,
+    h1, h2, h3, h4, h5, h6,
+    .title, .subtitle,
+    .content, .button,
+    .publication-title, .publication-authors,
+    .table, .footer, .section,
+    .hero, .author-block,
+    .work-item, .link-block,
+    .more-works-btn, .more-works-dropdown,
+    .copy-text, .bibtex-header {
+      font-family: 'Nunito', sans-serif !important;
+    }
+  </style>
+
 </head>
+
 <body>
 
+<button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
+<div class="more-works-container">
+  <button class="more-works-btn" onclick="toggleMoreWorks()">
+    <i class="fas fa-flask"></i>
+    More Works
+    <i class="fas fa-chevron-down dropdown-arrow"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
+  <div class="more-works-dropdown" id="moreWorksDropdown">
+    <div class="dropdown-header">
+      <h4>More Works from Our Lab</h4>
+      <button class="close-btn" onclick="toggleMoreWorks()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="works-list">
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_EventGPT_Event_Stream_Understanding_with_Multimodal_Large_Language_Models_CVPR_2025_paper.pdf" class="work-item" target="_blank">
+        <div class="work-info">
+          <h5>EventGPT: Event Stream Understanding with Multimodal Large Language Models</h5>
+          <p>The first event-based multimodal large language model.</p>
+          <span class="work-venue">CVPR 2025</span>
+        </div>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
     </div>
   </div>
+</div>
 
-  <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+<main id="main-content">
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+<section class="hero" style="padding-bottom:0;">
+  <div class="hero-body" style="padding-bottom:0.5rem;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+          <h1 class="title is-1 publication-title" style="line-height:1.25;">
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
+            <div style="display:flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap;">
+              <img src="static/images/EventBench_logo.png" style="height:60px;">
+              <span>
+                <span style="color:rgb(101,114,250);">Event</span>
+                <span style="color:rgb(233,99,75);">Bench</span>:
+                Towards Comprehensive
               </span>
             </div>
+
+            <div style="white-space:nowrap;margin-top:6px;">
+              Benchmarking of Event-based MLLMs
+            </div>
+
+          </h1>
+
+          <div class="is-size-5 publication-authors" style="margin-bottom:0.5rem;">
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=L7OroPIAAAAJ" target="_blank">Shaoyu Liu</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=xrYnfwcAAAAJ" target="_blank">Jianing Li</a><sup>2,*</sup>,
+            </span>
+            <span class="author-block">
+              <a target="_blank">Guanghui Zhao</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a target="_blank">Yunjian Zhang</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.au.tsinghua.edu.cn/info/1080/3178.htm" target="_blank">Xiangyang Ji</a><sup>2</sup>
+            </span>
           </div>
+
+          <div class="is-size-5 publication-authors" style="margin-top:-0.5rem;margin-bottom:0.5rem;">
+            <span class="author-block"><sup>1</sup> Xidian University</span>,
+            <span class="author-block"><sup>2</sup> Tsinghua University</span>
+            <span class="eql-cntrb">
+              <small><br><sup>*</sup> Corresponding Authors</small>
+            </span>
+          </div>
+
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/XXXX" target="_blank" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <img src="static/images/arxiv_logo.svg" style="height:18px;">
+              </span>
+              <span>Paper</span>
+            </a>
+          </span>
+
+          <span class="link-block">
+            <a href="https://github.com/XduSyL/EventBench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><i class="fab fa-github"></i></span>
+              <span>Code</span>
+            </a>
+          </span>
+
+          <span class="link-block">
+            <a href="https://huggingface.co/datasets/XduSyL/EventBench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><img src="static/images/hf_logo.svg" style="height:18px;"></span>
+              <span>Datasets</span>
+            </a>
+          </span>
+
+          <span class="link-block">
+            <a href="https://huggingface.co/XduSyL/EventGPT-Plus-2B/tree/main" target="_blank" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><img src="static/images/hf_logo.svg" style="height:18px;"></span>
+              <span>Model</span>
+            </a>
+          </span>
+
         </div>
       </div>
     </div>
@@ -314,207 +175,303 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+<div class="container is-max-desktop" style="padding:0;margin-top:0.25rem;margin-bottom:1rem;">
+  <img src="static/images/overview.png" style="width:100%;display:block;">
 
-<!-- Paper abstract -->
+  <h2 class="subtitle"
+      style="margin-top:1.2rem;color:#000;text-align:justify;font-size:1.05rem;line-height:1.55;">
+      
+      The comprehensive <strong>EventBench</strong> covers 8 diverse task metrics for systematically evaluating the capabilities of <strong>event-based MLLMs</strong>. 
+      These metrics can be broadly categorized into three types: 
+
+      <span style="color:rgb(101,114,250); font-weight:bold;">
+        understanding
+      </span>
+      (detailed understanding, casual reasoning), 
+
+      <span style="color:rgb(233,99,75); font-weight:bold;">
+        recognition
+      </span>
+      (action recognition, gesture recognition, and event OCR), 
+
+      and 
+      <span style="color:rgb(198,95,16); font-weight:bold;">
+        spatial reasoning
+      </span>
+      (spatial relationship, absolute distance, and object counting).
+  </h2>
+</div>
+
+
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          <p style="text-align: justify; line-height: 1.55; font-size: 1.05rem;">
+
+            Multimodal large language models (MLLMs) have made significant advancements in event-based vision. 
+            However, the comprehensive evaluation of these models' capabilities within a unified benchmark remains a crucial yet largely unexplored aspect.
+            In this paper, we introduce <strong>EventBench</strong>, which presents an evaluation benchmark covering 8 diverse task metrics and a large-scale event stream dataset.
+            Our work distinguishes existing event-based benchmarks in four key aspects:
+            <strong>i) Openness in accessibility</strong>, releasing all raw event streams and task instructions across 8 evaluation metrics;
+            <strong>ii) Diversity in task coverage</strong>, covering diverse understanding, recognition, and spatial reasoning tasks, enabling comprehensive evaluation of model capability;
+            <strong>iii) Integration in spatial dimensions</strong>, pioneering the design of 3D spatial reasoning task for event-based MLLMs;
+            <strong>iv) Scale in data volume</strong>, with an accompanying training set of over one million event–text pairs supporting large-scale training and evaluation.
+            With EventBench, we evaluate state-of-the-art closed-source models such as GPT-5 and Gemini-2.5 Pro, leading open-source models including Qwen2.5-VL and InternVL3, as well as event-based MLLMs like EventGPT that directly process raw event inputs. 
+            Extensive evaluation reveals that current event-based MLLMs perform well in event stream understanding, yet they still struggle with fine-grained recognition and spatial reasoning.
+
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
+<!-- ===================================== -->
+<!-- Radar Chart + Main Results Table -->
+<!-- ===================================== -->
+<!-- ===================================== -->
+<!-- Radar Figure + Main Results Table -->
+<!-- ===================================== -->
+<section class="section">
+  <div class="container is-max-desktop">
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+    <h2 class="title is-3 has-text-centered">Main Results on EventBench</h2>
+
+    <!-- Radar Figure -->
+    <div style="text-align:center; margin-bottom: 1.5rem;">
+      <img src="static/images/lidar_graph.png"
+           alt="Radar Performance Graph"
+           style="width:50%; height:auto; box-shadow:none; background:none; border-radius:0;">
     </div>
+
+    <div class="table-container">
+      <table class="table is-bordered is-striped is-hoverable" 
+             style="width:100%; font-size:0.9rem;">
+
+        <!-- Header -->
+        <thead>
+          <tr>
+            <th rowspan="2" style="vertical-align: middle; text-align:center;">Model</th>
+            <th rowspan="2" style="vertical-align: middle; text-align:center;">Params</th>
+            <th rowspan="2" style="vertical-align: middle; text-align:center;">Backbone</th>
+
+            <th colspan="2" style="text-align:center;">Understanding</th>
+            <th colspan="3" style="text-align:center;">Recognition</th>
+            <th colspan="3" style="text-align:center;">Spatial Reasoning</th>
+
+            <th rowspan="2" style="vertical-align: middle; text-align:center;">Overall</th>
+          </tr>
+
+          <tr>
+            <th>DU</th><th>CR</th>
+            <th>AR</th><th>GR</th><th>E-OCR</th>
+            <th>SR</th><th>AD</th><th>OC</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- Close-Source -->
+          <tr style="background:#f2f2f2;">
+            <td colspan="12"><strong>● Close-Source MLLMs</strong></td>
+          </tr>
+
+          <tr>
+            <td>GPT-5</td><td>-</td><td>-</td>
+            <td>68.5</td><td><strong>70.1</strong></td>
+            <td>46.0</td><td>49.8</td><td>22.2</td>
+            <td><strong>47.8</strong></td><td><strong>30.7</strong></td><td><strong>25.6</strong></td>
+            <td><strong>45.1</strong></td>
+          </tr>
+
+          <tr>
+            <td>GPT-4o</td><td>-</td><td>-</td>
+            <td>62.5</td><td>65.8</td>
+            <td><strong>55.3</strong></td><td>48.6</td><td>19.1</td>
+            <td>45.5</td><td>17.8</td><td>21.5</td>
+            <td>42.0</td>
+          </tr>
+
+          <tr>
+            <td>Gemini-2.5 Pro</td><td>-</td><td>-</td>
+            <td>61.3</td><td>63.9</td>
+            <td>44.1</td><td><strong>49.9</strong></td><td>19.1</td>
+            <td>40.5</td><td>17.5</td><td>16.9</td>
+            <td>39.2</td>
+          </tr>
+
+          <tr>
+            <td>Gemini-2.5 Flash</td><td>-</td><td>-</td>
+            <td>54.7</td><td>61.1</td>
+            <td>42.7</td><td>43.4</td><td>21.0</td>
+            <td>25.6</td><td>15.6</td><td>14.5</td>
+            <td>34.8</td>
+          </tr>
+
+          <tr>
+            <td>Doubao-Seed-1.6 Vision</td><td>-</td><td>-</td>
+            <td><strong>70.3</strong></td><td>65.2</td>
+            <td>46.6</td><td>45.4</td><td><strong>45.1</strong></td>
+            <td>11.6</td><td>36.3</td><td>23.0</td>
+            <td>42.9</td>
+          </tr>
+
+          <!-- Open-Source SFT -->
+          <tr style="background:#f2f2f2;">
+            <td colspan="12"><strong>● Open-Source MLLMs (SFT)</strong></td>
+          </tr>
+
+          <tr>
+            <td>Qwen2.5-VL</td><td>3B</td><td>Qwen2.5</td>
+            <td>59.8</td><td>65.6</td>
+            <td>52.9</td><td>35.2</td><td><strong>45.6</strong></td>
+            <td><strong>44.9</strong></td><td>31.9</td><td>59.9</td>
+            <td>49.5</td>
+          </tr>
+
+          <tr>
+            <td>InternVL3.5</td><td>4B</td><td>Qwen3</td>
+            <td>73.1</td><td><strong>75.0</strong></td>
+            <td><strong>69.3</strong></td><td><strong>45.2</strong></td><td>38.9</td>
+            <td>40.5</td><td><strong>46.8</strong></td><td><strong>61.1</strong></td>
+            <td><strong>56.2</strong></td>
+          </tr>
+
+          <tr>
+            <td>MiniCPM-V-4</td><td>4.1B</td><td>MiniCPM4</td>
+            <td><strong>72.9</strong></td><td>63.9</td>
+            <td>58.9</td><td>37.1</td><td>44.4</td>
+            <td>44.2</td><td>43.1</td><td>55.6</td>
+            <td>52.5</td>
+          </tr>
+
+          <tr>
+            <td>MiMo-VL</td><td>7B</td><td>MiMo</td>
+            <td>71.8</td><td>68.3</td>
+            <td>57.3</td><td>38.6</td><td>31.5</td>
+            <td>44.5</td><td>45.2</td><td>61.0</td>
+            <td>52.3</td>
+          </tr>
+
+          <!-- Event-Based Models -->
+          <tr style="background:#f2f2f2;">
+            <td colspan="12"><strong>● Open-Source Event-Based MLLMs</strong></td>
+          </tr>
+
+          <tr>
+            <td>EventGPT</td><td>7B</td><td>Vicuna-1.5</td>
+            <td>76.8</td><td>79.2</td>
+            <td>78.6</td><td>57.2</td><td>52.4</td>
+            <td>49.8</td><td>52.6</td><td>61.5</td>
+            <td>63.5</td>
+          </tr>
+
+          <tr>
+            <td><strong>EventGPT+(B)</strong></td><td>2B</td><td>Qwen2.5</td>
+            <td>78.3</td><td>78.2</td>
+            <td>79.8</td><td>55.5</td><td>53.6</td>
+            <td>50.2</td><td>51.9</td><td>62.8</td>
+            <td>63.8</td>
+          </tr>
+
+          <tr>
+            <td><strong>EventGPT+(L)</strong></td><td>7B</td><td>Qwen2.5</td>
+            <td><strong>79.1</strong></td><td><strong>79.6</strong></td>
+            <td><strong>81.6</strong></td><td><strong>58.7</strong></td><td><strong>55.4</strong></td>
+            <td><strong>53.2</strong></td><td><strong>52.2</strong></td><td><strong>64.6</strong></td>
+            <td><strong>65.5</strong></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
 
 
+<!-- =============================== -->
+<!-- Dataset Statistics Section -->
+<!-- =============================== -->
+<!-- =============================== -->
+<!-- Dataset Statistics Section -->
+<!-- =============================== -->
+<!-- =============================== -->
+<!-- Dataset Statistics Section -->
+<!-- =============================== -->
+<section class="section" style="padding-top: 2rem; padding-bottom: 2rem;">
 
+  <!-- Medium-wide container -->
+  <div style="max-width: 1000px; margin: 0 auto;">
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 1.2rem;">
+      Dataset Statistics
+    </h2>
+
+    <div class="has-text-centered">
+      <img src="static/images/data_statistics.png"
+           alt="Dataset Statistics"
+           style="
+             width: 100%;
+             max-width: 1150px;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border-radius: 6px;
+           ">
     </div>
+
+    <!-- Caption -->
+    <p style="
+        margin-top: 1rem;
+        text-align: justify;
+        font-size: 1.05rem;
+        line-height: 1.55;
+        color: #000;">
+        Data statistics of our EventBench. (a) Task and category distribution across three groups: understanding (i.e., DU and CR), recognition (i.e., AR, GR, and E-OCR), and spatial reasoning (i.e., SR, AD, and OC). (b) Sample statistics for each task category. (c) Comparison with existing event-based benchmarks across multiple dimensions (i.e., modality, metric type, data source, size, and temporal span). Note that EventBench provides a comprehensive benchmark for systematically evaluating the capabilities of event-based MLLMs.
+    </p>
+
   </div>
 </section>
-<!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
     </div>
-  </div>
-</section>
-<!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+    <pre id="bibtex-code"><code>@article{EventBench2025,
+  title={EventBench},
+  author={Shaoyu Liu and others},
+  year={2025}
 }</code></pre>
-    </div>
+  </div>
 </section>
-<!--End BibTex citation -->
 
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This page is based on the Academic Project Page Template and Nerfies.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+</main>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
